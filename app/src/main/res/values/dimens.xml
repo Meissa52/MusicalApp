@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nowplayingsize">30sp</dimen>
+    <dimen name="album1text">20sp</dimen>
+    <dimen name="artistdimen">22sp</dimen>
+    <dimen name="paymentdimen">20sp</dimen>
+    <dimen name="initialitemvalue">30sp</dimen>
+    <dimen name="cart">15sp</dimen>
+    <dimen name="main">30sp</dimen>
+    <dimen name="track1">18sp</dimen>
+</resources>

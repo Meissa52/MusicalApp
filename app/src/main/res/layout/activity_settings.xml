@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgnd1"
+    tools:context=".settings">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tophome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f5fd2f"
+            android:layout_gravity="top"
+            android:text="Home"
+            />
+
+        <Button
+            android:id="@+id/toptracks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#e5d1e6"
+            android:layout_gravity="top"
+            android:text="Tracks"
+            />
+
+
+        <Button
+            android:id="@+id/topalbum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0dc4e0"
+            android:layout_gravity="top"
+            android:text="Albums"
+            />
+
+        <Button
+            android:id="@+id/topartist"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#b0b0ce"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:text="Artists"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/topmusiccart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:background="#968775"
+            android:text="Cart"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/play_settings"
+            android:textColor="@color/color1"
+            android:textAllCaps="true"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/box1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:buttonTint="@color/color1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/switch_on_to_play_songs_one_after_another_without_break"
+            android:textColor="@color/color1"
+            />
+
+
+
+        <CheckBox
+            android:id="@+id/box2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:buttonTint="@color/color1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/enable_disable_shuffle"
+            android:textColor="@color/color1"
+            />
+
+
+        <CheckBox
+            android:id="@+id/box3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:buttonTint="@color/color1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/equalizer_default_on"
+            android:textColor="@color/color1"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/general"
+            android:textColor="@color/color1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/set1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/rate_app"
+               />
+
+            <Button
+                android:id="@+id/set2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/share_app"/>
+
+            <Button
+                android:id="@+id/set3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/restore_purchases"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+
+</ScrollView>

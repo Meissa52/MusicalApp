@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgnd1"
+    tools:context=".Albums">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tophome"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#f5fd2f"
+                android:layout_gravity="top"
+                android:text="Home"
+                />
+
+
+            <Button
+                android:id="@+id/toptracks"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#e5d1e6"
+                android:layout_gravity="top"
+                android:text="Tracks"
+                />
+
+
+
+            <Button
+                android:id="@+id/topartist"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#b0b0ce"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:text="Artists"
+
+
+                />
+
+            <Button
+                android:id="@+id/topsettings"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:background="#00cc00"
+                android:text="settings"
+
+                />
+            <Button
+                android:id="@+id/topmusiccart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:background="#968775"
+                android:text="Cart"
+                />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/edalbum"
+                android:background="#e5d1e6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/play_album_songs_ed_sheeran"
+                android:textColor="@color/color1"
+                android:layout_marginTop="70dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/album1text"
+                android:drawableTop="@drawable/ed"
+                android:drawablePadding="10dp"/>
+
+            <Button
+                android:id="@+id/arianaalbum"
+                android:background="#e5d1e6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/play_album_songs_ariana"
+                android:textColor="@color/color1"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/album1text"
+                android:drawableTop="@drawable/ariana"
+                android:drawablePadding="10dp"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/coldalbum"
+                android:background="#e5d1e6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/play_album_songs_coldplay"
+
+                android:textColor="@color/color1"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="70dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/album1text"
+                android:drawableTop="@drawable/coldplay"
+                android:drawablePadding="10dp"/>
+
+                <Button
+                    android:id="@+id/katyalbum"
+                    android:background="#e5d1e6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/play_album_songs_katyperry"
+                    android:textColor="@color/color1"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/album1text"
+                    android:drawableTop="@drawable/katy"
+                    android:drawablePadding="10dp"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+</ScrollView>

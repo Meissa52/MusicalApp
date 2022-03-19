@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bkgnd1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".NowPlaying">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tophome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f5fd2f"
+            android:layout_gravity="top"
+            android:text="Home"
+            />
+
+        <Button
+            android:id="@+id/toptracks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#e5d1e6"
+            android:layout_gravity="top"
+            android:text="Tracks"
+            />
+
+
+    <Button
+        android:id="@+id/topalbum"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#0dc4e0"
+        android:layout_gravity="top"
+        android:text="Albums"
+        />
+
+    <Button
+        android:id="@+id/topartist"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#b0b0ce"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:text="Artists"
+
+
+        />
+
+    <Button
+        android:id="@+id/topsettings"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:background="#00cc00"
+        android:text="settings"
+
+        />
+    <Button
+        android:id="@+id/topmusiccart"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:background="#968775"
+        android:text="Cart"
+        />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:src="@drawable/cover"
+       android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nowplayingtitle"
+        android:textColor="@color/nowplayincolor"
+        android:layout_gravity="center"
+        android:textSize="@dimen/nowplayingsize"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nowplayingalbum"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingTop="30dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/prev"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/prevbutton"
+            />
+
+        <ImageButton
+            android:id="@+id/playicon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:src="@drawable/play"
+            />
+
+        <ImageButton
+            android:id="@+id/nexticon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/nextbutton"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+

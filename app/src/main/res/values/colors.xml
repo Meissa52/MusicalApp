@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="nowplayincolor">#ffffff</color>
+    <color name="color1">#ffffff</color>
+    <color name="artistcolor">#b0bb1e</color>
+    <color name="nowplayingcolor">#f5fd2f</color>
+    <color name="trackscolor">#e5d1e6</color>
+    <color name="artistscolor">#b0b0ce</color>
+    <color name="albumscolor">#00cc00</color>
+    <color name="settingscolor">#0dc4e0</color>
+    <color name="cartcolor">#968775</color>
+</resources>
